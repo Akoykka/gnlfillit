@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   basictests.c                                       :+:      :+:    :+:   */
+/*   middletests.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: akoykka <akoykka@student.hive.fi>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/01/12 18:53:23 by skoge             #+#    #+#             */
-/*   Updated: 2022/01/17 14:06:13 by akoykka          ###   ########.fr       */
+/*   Created: 2022/01/17 14:02:42 by akoykka           #+#    #+#             */
+/*   Updated: 2022/01/17 14:40:47 by akoykka          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,8 @@ int fdctrl;
 int status;
 int statusctrl;
 
-fd = open("basic", O_RDONLY);
-fdctrl = open("basic1", O_RDONLY);
+fd = open("middletests", O_RDONLY);
+fdctrl = open("middletests", O_RDONLY);
 
 statusctrl = ft_get_next_line(fdctrl, destctrl);
 status = get_next_line(fd, dest);
